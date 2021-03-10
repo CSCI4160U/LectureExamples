@@ -15,7 +15,7 @@ public class FirstPersonPlayer : MonoBehaviour {
     [SerializeField] private bool canAirControl = true;
 
     [Header("Looking")]
-    [SerializeField] private Transform camera;
+    [SerializeField] private Transform mainCamera;
     [SerializeField] private float mouseSensitivity = 300f;
 
     private CharacterController controller;
@@ -55,7 +55,7 @@ public class FirstPersonPlayer : MonoBehaviour {
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
         verticalRotation -= mouseY;
         verticalRotation = Mathf.Clamp(verticalRotation, -90f, 90f);
-        camera.localEulerAngles = new Vector3(verticalRotation, 0f, 0f);
+        mainCamera.localEulerAngles = new Vector3(verticalRotation, 0f, 0f);
 
         Vector3 x = Vector3.zero;
         Vector3 y = Vector3.zero;

@@ -23,6 +23,7 @@ public class PlayerShoot : MonoBehaviour {
 
         RaycastHit hit;
 
+        Debug.Log("Shoot()");
         if (Physics.Raycast(mainCamera.position, mainCamera.forward, out hit, range, enemyLayers)) {
             Debug.Log("Hit enemy: " + hit.collider.name);
 
