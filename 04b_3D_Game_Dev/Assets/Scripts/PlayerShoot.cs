@@ -30,14 +30,9 @@ public class PlayerShoot : MonoBehaviour {
             Health enemyHealth = hit.collider.GetComponent<Health>();
             if (enemyHealth != null) {
                 enemyHealth.TakeDamage(10);
-
-                // disabled since we're now showing the death animation
-                //if (enemyHealth.IsDead()) {
-                //    hit.collider.gameObject.SetActive(false);
-                //}
             }
         } else if (Physics.Raycast(mainCamera.position, mainCamera.forward, out hit, range, wallLayers)) {
-            Debug.Log("Hit wall: " + hit.collider.name);
+            //Debug.Log("Hit wall: " + hit.collider.name);
 
             Instantiate(
                 bulletHolePrefab,

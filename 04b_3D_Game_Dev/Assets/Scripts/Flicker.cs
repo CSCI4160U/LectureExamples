@@ -5,21 +5,21 @@ public class Flicker : MonoBehaviour {
     [SerializeField] private float maxIntensity = 10.0f;
     [SerializeField] private float flickerSpeed = 2f;
 
-    private Light light = null;
+    private Light lightSource = null;
 
     void Awake() {
-        light = GetComponent<Light>();
+        lightSource = GetComponent<Light>();
     }
 
     private void Start() {
-        light.type = LightType.Point;
-        light.shadows = LightShadows.Soft;
-        light.range = 15f;
+        lightSource.type = LightType.Point;
+        lightSource.shadows = LightShadows.Soft;
+        lightSource.range = 15f;
     }
 
     void Update() {
         float intensityRange = maxIntensity - minIntensity;
         float newIntensity = minIntensity + Mathf.PerlinNoise(Time.time * flickerSpeed, 0) * intensityRange;
-        light.intensity = newIntensity;
+        lightSource.intensity = newIntensity;
     }
 }
