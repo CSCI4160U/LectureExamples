@@ -6,6 +6,7 @@ public class PlayerShoot : MonoBehaviour {
 
     [SerializeField] private LayerMask wallLayers;
     [SerializeField] private LayerMask enemyLayers;
+    [SerializeField] private LayerMask barrelLayers;
 
     [SerializeField] private Animator gunAnimator;
     [SerializeField] private GameObject bulletHolePrefab;
@@ -31,6 +32,16 @@ public class PlayerShoot : MonoBehaviour {
             if (enemyHealth != null) {
                 enemyHealth.TakeDamage(10);
             }
+
+            EnemyHealthRagdoll enemyHealthRagdoll = hit.collider.GetComponent<EnemyHealthRagdoll>();
+            if (enemyHealthRagdoll != null) {
+                enemyHealthRagdoll.TakeDamage(10);
+            }
+        } else if (Physics.Raycast(mainCamera.position, mainCamera.forward, out hit, range, barrelLayers)) {
+            Barrel barrel = hit.collider.GetComponent<Barrel>();
+            if (barrel) {
+                barrel.Explode();
+            }
         } else if (Physics.Raycast(mainCamera.position, mainCamera.forward, out hit, range, wallLayers)) {
             //Debug.Log("Hit wall: " + hit.collider.name);
 
@@ -40,6 +51,5 @@ public class PlayerShoot : MonoBehaviour {
                 Quaternion.LookRotation(-1 * hit.normal, hit.transform.up)
             );
         }
-
     }
 }
