@@ -15,8 +15,8 @@ TagManager:
   - Walls
   - GoodGuys
   - Barrels
-  - 
-  - 
+  - Interactable
+  - Collectible
   - 
   - 
   - 
