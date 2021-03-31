@@ -1,8 +1,8 @@
 using UnityEngine;
 
 public class Health : MonoBehaviour {
-    //[SerializeField] private int maxHP = 100;
-    [SerializeField] private int hp = 30;
+    [SerializeField] public int maxHP = 100;
+    [SerializeField] public int hp = 30;
     [SerializeField] private bool isDead = false;
     
     private Animator animator;

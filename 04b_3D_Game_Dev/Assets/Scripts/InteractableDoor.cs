@@ -73,6 +73,10 @@ public class InteractableDoor : InteractableObject {
         activateText = openText;
     }
 
+    public void Unlock() {
+        isUnlocked = true;
+    }
+
     public override string GetInteractionText() {
         if (isUnlocked) {
             return activateText;
