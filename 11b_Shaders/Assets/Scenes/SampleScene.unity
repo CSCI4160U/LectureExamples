@@ -954,6 +954,7 @@ GameObject:
   - component: {fileID: 921075790}
   - component: {fileID: 921075789}
   - component: {fileID: 921075788}
+  - component: {fileID: 921075791}
   m_Layer: 3
   m_Name: EnergyShield_Hit
   m_TagString: Untagged
@@ -1038,6 +1039,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921075786}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &921075791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921075786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd8eca6e43ad6e49ac66bf3c75e6522, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shield: {fileID: 1670787783}
+  maxStrength: 50
+  initialHitRadius: 0.2
+  hitRadiusDecay: 0.01
 --- !u!1 &1145444333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,8 +1221,13 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 256
+  shieldLayers:
+    serializedVersion: 2
+    m_Bits: 8
   gunAnimator: {fileID: 1151836837}
   bulletHolePrefab: {fileID: 5084596627732002390, guid: 71713543d517c40429fe5c3f14b09e4d, type: 3}
+  initialHitRadius: 0.5
+  hitRadiusDecay: 0.01
 --- !u!114 &1151836841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1559,7 +1581,7 @@ GameObject:
   - component: {fileID: 1670787787}
   - component: {fileID: 1670787786}
   - component: {fileID: 1670787785}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: EnergyShield
   m_TagString: Untagged
   m_Icon: {fileID: 0}

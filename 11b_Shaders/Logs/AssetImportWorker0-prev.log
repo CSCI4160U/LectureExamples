@@ -1,0 +1,383 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.1f1 (6fdc41dfa55a) revision 7330881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 32703 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Winter 2021/CSCI4160U/LectureExamples/11b_Shaders
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51016
+Successfully changed project path to: D:/Winter 2021/CSCI4160U/LectureExamples/11b_Shaders
+D:/Winter 2021/CSCI4160U/LectureExamples/11b_Shaders
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 177.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.1f1 (6fdc41dfa55a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Winter 2021/CSCI4160U/LectureExamples/11b_Shaders/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1be1)
+    Vendor:   NVIDIA
+    VRAM:     8081 MB
+    Driver:   27.21.14.5709
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002948 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 172.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.220 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005354 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 197.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.336 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3993 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.3 MB.
+System memory in use after: 156.6 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 4418.
+Total: 7.864000 ms (FindLiveObjects: 1.240800 ms CreateObjectMapping: 0.680900 ms MarkObjects: 3.760800 ms  DeleteObjects: 2.179700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/EnergyShield
+  artifactKey: Guid(7f608464d2114c44981f3802269b82ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield using Guid(7f608464d2114c44981f3802269b82ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a80fbb4d41b4557edd8464812c2166') in 0.017606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.808085 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bb7a239b46fc46b7d3d9b97d8c4103') in 0.084515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 157.569664 seconds.
+  path: Assets/EnergyShield/EnergyShield.shadergraph
+  artifactKey: Guid(f80f16b9ad72a1b4ba2cbd31f964dbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield/EnergyShield.shadergraph using Guid(f80f16b9ad72a1b4ba2cbd31f964dbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a621cabd9e5722ee74131dfbb6f5bb38') in 0.010244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 161.720599 seconds.
+  path: Assets/EnergyShield/Shader Graphs_EnergyShield.mat
+  artifactKey: Guid(d6dcfa2e12c517b489ef0fdbdef27b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield/Shader Graphs_EnergyShield.mat using Guid(d6dcfa2e12c517b489ef0fdbdef27b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1db18b820b8876945b2fb6980471cbb') in 1.895932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/EnergyShield/EnergyShield.shadergraph
+  artifactKey: Guid(f80f16b9ad72a1b4ba2cbd31f964dbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield/EnergyShield.shadergraph using Guid(f80f16b9ad72a1b4ba2cbd31f964dbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c925d6890af6f59c9f6dbde7aeeee596') in 0.008742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 265.664885 seconds.
+  path: Assets/EnergyShield/EnergyShield.shadergraph
+  artifactKey: Guid(f80f16b9ad72a1b4ba2cbd31f964dbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield/EnergyShield.shadergraph using Guid(f80f16b9ad72a1b4ba2cbd31f964dbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03d36b14e060bfb851f598eafcb5685') in 0.007056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.766686 seconds.
+  path: Assets/EnergyShield/SheetMetal001_1K_Displacement.png
+  artifactKey: Guid(0feeeb41eb4cf7f49be7405c171bf718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield/SheetMetal001_1K_Displacement.png using Guid(0feeeb41eb4cf7f49be7405c171bf718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63616bc5667e1bd2fc1fb5bf8298a50d') in 0.116414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.173660 seconds.
+  path: Assets/EnergyShield/SheetMetal001_1K_Displacement.png
+  artifactKey: Guid(0feeeb41eb4cf7f49be7405c171bf718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield/SheetMetal001_1K_Displacement.png using Guid(0feeeb41eb4cf7f49be7405c171bf718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47689247f47fea7ec394bc4feb9c1e5') in 0.019927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.658593 seconds.
+  path: Assets/EnergyShield/SheetMetal001_1K_Displacement.png
+  artifactKey: Guid(0feeeb41eb4cf7f49be7405c171bf718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield/SheetMetal001_1K_Displacement.png using Guid(0feeeb41eb4cf7f49be7405c171bf718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcef2ec21b9e8bbd0edc7ba0c0aff1c9') in 0.040828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.677171 seconds.
+  path: Assets/EnergyShield/SheetMetal001_1K_Displacement.png
+  artifactKey: Guid(0feeeb41eb4cf7f49be7405c171bf718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield/SheetMetal001_1K_Displacement.png using Guid(0feeeb41eb4cf7f49be7405c171bf718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e1eea98b2774f62ea369889a0608f8') in 0.015000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.903629 seconds.
+  path: Assets/3rd Party Assets/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Albedo_Silver.png
+  artifactKey: Guid(eff506c84ac90d34c81e139f3e96a2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Albedo_Silver.png using Guid(eff506c84ac90d34c81e139f3e96a2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5236f4f1af0117832e188f8c19947d7') in 0.228187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(3017ed6fed9d3bb49ba99bf738e2d626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif using Guid(3017ed6fed9d3bb49ba99bf738e2d626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6ad6bd77e500eb8d306eab97824ada') in 0.053724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/3rd Party Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Albedo_Steel.png
+  artifactKey: Guid(7474c63c5c65b1b4fa45a47bd1bf528f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Albedo_Steel.png using Guid(7474c63c5c65b1b4fa45a47bd1bf528f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89af1849b00b6035f645c38e5a471c9c') in 0.034641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif
+  artifactKey: Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif using Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7224f808984df94230895644ceb358c7') in 0.035604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(6c509e4ae024b5e4faeefb92dab5c812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif using Guid(6c509e4ae024b5e4faeefb92dab5c812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2476993b4cdda2492a7fe50b4dae7a57') in 0.039467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/3rd Party Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_MetallicSmoothness.png
+  artifactKey: Guid(1ed6c1c5fa7989e4597a77c8148b0876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_MetallicSmoothness.png using Guid(1ed6c1c5fa7989e4597a77c8148b0876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e081b05e147f70d55a831cf79d86eb28') in 0.036964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif using Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d6722cea9ca618b6ee07908513b1ac') in 0.039933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif using Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9e55e122e12d63dfb0bce4b727178b') in 0.058192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(a8d38587573a5f34c91c4ae0fbd8bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif using Guid(a8d38587573a5f34c91c4ae0fbd8bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dd614a77297249b0c9dd02f39710c6') in 0.032164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000705 seconds.
+  path: Assets/3rd Party Assets/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Normal.png
+  artifactKey: Guid(df9023114d04044448b061e46927ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Normal.png using Guid(df9023114d04044448b061e46927ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28406e06c6fc848b7cc0b6f06cb9bdf4') in 0.055908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/3rd Party Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Normal.png
+  artifactKey: Guid(476d8958242d6014fb5ae5916a7e9815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Normal.png using Guid(476d8958242d6014fb5ae5916a7e9815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7002b5f40df73b68a04f15ed2a4ab41b') in 0.080242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif
+  artifactKey: Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif using Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1772ccc25a246cbf822f1ebba18e80f0') in 0.036736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif
+  artifactKey: Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif using Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e4f7d98e154d039e0a69f3e271897a') in 0.037909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif
+  artifactKey: Guid(87ce03bd447ccce48bbff87ac0d8355f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif using Guid(87ce03bd447ccce48bbff87ac0d8355f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c19d62fd52ffb2797bff9326d94c4c') in 0.048624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif
+  artifactKey: Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif using Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2324f62272f06b3c4fe08e73be939ddc') in 0.034017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif
+  artifactKey: Guid(06969fc081d8cc146af6634f75abe652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif using Guid(06969fc081d8cc146af6634f75abe652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235e88fd75da0b3229fde60dc529d766') in 0.037253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif
+  artifactKey: Guid(eae496078d11426448124eaf8b285e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif using Guid(eae496078d11426448124eaf8b285e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9e771fb1cb859548bb8b87f995267c') in 0.028045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif
+  artifactKey: Guid(59c8de363dc14c54986d0751c2c38342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif using Guid(59c8de363dc14c54986d0751c2c38342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ced4a6f90232d76df10c90877a62be0') in 0.044278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif
+  artifactKey: Guid(b3f247b26e080ca468f1daa963c192ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif using Guid(b3f247b26e080ca468f1daa963c192ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a90c1f93bd1011afae0807a2c93ef0f') in 0.033695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif
+  artifactKey: Guid(c517a9b1527aec343806327b47ad22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif using Guid(c517a9b1527aec343806327b47ad22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da1aacfb8cb4837f63afaa15c4660cc') in 0.035299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif
+  artifactKey: Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif using Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1b4f706494b2480f672507114b700d') in 0.035595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif
+  artifactKey: Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif using Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6373f184c4704a73c838a146b9a17799') in 0.028632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/TutorialInfo/Icons/Help_Icon.png
+  artifactKey: Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons/Help_Icon.png using Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a99bec6887fc43c6d3268a201675113') in 0.037323 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011374 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.769 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.1 MB.
+System memory in use after: 188.5 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4907.
+Total: 16.048800 ms (FindLiveObjects: 3.612400 ms CreateObjectMapping: 1.986500 ms MarkObjects: 6.690500 ms  DeleteObjects: 3.755200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011910 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.788 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3916 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.3 MB.
+System memory in use after: 187.7 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4910.
+Total: 15.686700 ms (FindLiveObjects: 0.624200 ms CreateObjectMapping: 0.464700 ms MarkObjects: 6.960100 ms  DeleteObjects: 7.634700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2127.485526 seconds.
+  path: Assets/EnergyShield/Shader Graphs_EnergyShield.mat
+  artifactKey: Guid(d6dcfa2e12c517b489ef0fdbdef27b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield/Shader Graphs_EnergyShield.mat using Guid(d6dcfa2e12c517b489ef0fdbdef27b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddada974da06b49aa548685294e91b5f') in 0.393614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.855802 seconds.
+  path: Assets/EnergyShield/SheetMetal001_1K_Normal.png
+  artifactKey: Guid(306a23796361051428333a7d965b0867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield/SheetMetal001_1K_Normal.png using Guid(306a23796361051428333a7d965b0867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61043243757ea4b196ee608db94d4b01') in 0.083320 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010657 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.004 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3917 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.6 MB.
+System memory in use after: 189.0 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4964.
+Total: 13.398500 ms (FindLiveObjects: 0.644600 ms CreateObjectMapping: 0.674800 ms MarkObjects: 8.939300 ms  DeleteObjects: 3.136800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 707.101074 seconds.
+  path: Assets/EnergyShield/EnergyShield.shadergraph
+  artifactKey: Guid(f80f16b9ad72a1b4ba2cbd31f964dbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield/EnergyShield.shadergraph using Guid(f80f16b9ad72a1b4ba2cbd31f964dbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05447605887e5f59dc974168fc18dfa') in 0.037731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.362539 seconds.
+  path: Assets/EnergyShield/EnergyShield 1.shadergraph
+  artifactKey: Guid(49f081f2bdf23f9459b00da11456b55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield/EnergyShield 1.shadergraph using Guid(49f081f2bdf23f9459b00da11456b55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c4f089420c9691873c41d556950bbe') in 0.019097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012169 seconds.
+  path: Assets/EnergyShield/Shader Graphs_EnergyShield.mat
+  artifactKey: Guid(d6dcfa2e12c517b489ef0fdbdef27b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield/Shader Graphs_EnergyShield.mat using Guid(d6dcfa2e12c517b489ef0fdbdef27b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3f52d27cab42227509ab6bbf0f53f3') in 0.544958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.101301 seconds.
+  path: Assets/EnergyShield/EnergyShield_Hit.shadergraph
+  artifactKey: Guid(49f081f2bdf23f9459b00da11456b55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield/EnergyShield_Hit.shadergraph using Guid(49f081f2bdf23f9459b00da11456b55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de29e28d617eddc7d0ab9f0b389fee8d') in 0.021894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.854337 seconds.
+  path: Assets/EnergyShield/Shader Graphs_EnergyShield_Hit.mat
+  artifactKey: Guid(7fef0cf4f44925449a750fd7f0a6ba91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield/Shader Graphs_EnergyShield_Hit.mat using Guid(7fef0cf4f44925449a750fd7f0a6ba91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caaf0801fd71693505fbcf4b1c9d5fbc') in 0.069153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 325.512717 seconds.
+  path: Assets/EnergyShield/EnergyShield_Hit.shadergraph
+  artifactKey: Guid(49f081f2bdf23f9459b00da11456b55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnergyShield/EnergyShield_Hit.shadergraph using Guid(49f081f2bdf23f9459b00da11456b55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f537b7a077ff2af5bc3ac115554ef3') in 0.013758 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

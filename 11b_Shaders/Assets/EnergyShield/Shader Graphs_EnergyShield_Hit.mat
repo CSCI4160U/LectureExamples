@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SampleTexture2D_28b84578e8d84577ba9fac44b72c05cf_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 0feeeb41eb4cf7f49be7405c171bf718, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_eca43ac4fd7a4383ba218175397e92f7_Texture_1:
         m_Texture: {fileID: 2800000, guid: 306a23796361051428333a7d965b0867, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -40,11 +44,11 @@ Material:
     - EdgeOffset: 1
     - FresnelPower: 4
     - HitRadius: 0
-    - HitSphereHardness: 0.5
+    - HitSphereHardness: 0.85
     - PulseFrequency: 2
     - ScrollSpeed: -0.05
     m_Colors:
     - EmissionColour: {r: 2.107873, g: 0.1304005, b: 0.008522471, a: 0}
-    - HitPosition: {r: 3.74, g: 0.85, b: -1.18, a: 0}
+    - HitPosition: {r: 3.74, g: 20, b: -1.18, a: 0}
     - PulseScale: {r: 0.02, g: 0.02, b: 0.02, a: 0}
   m_BuildTextureStacks: []
