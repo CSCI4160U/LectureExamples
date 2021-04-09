@@ -3,7 +3,17 @@ guid: 0c78d93b138717949a3a1c9760240ddd
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leather
+    second: {fileID: 2100000, guid: 1ba24e41843b62b4890e90e3eb4d1f0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stitches
+    second: {fileID: 2100000, guid: bc69679c750eb8349bc4cb131d7e69c0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -73,7 +83,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
   humanDescription:
     serializedVersion: 3
     human: []
